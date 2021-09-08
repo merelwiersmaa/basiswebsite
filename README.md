@@ -39,7 +39,8 @@ ik begin met responsive en misschien wat animaties als ik daar aan toe kom :)
 https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_pcrid_487299093080_pgrid_114373001947_&cid=aos-nl-kwgo-iphone--slid---product-
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Apple iPhone 12  
+<details open>
+ <summary>Apple iPhone 12</summary>
 <img src="iphone12pagina.png" width="375px" alt="screenshot 1e pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
