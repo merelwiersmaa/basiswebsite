@@ -45,7 +45,7 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
  </details>
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+ <summary>hier de naam van de pagina</summary> 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
