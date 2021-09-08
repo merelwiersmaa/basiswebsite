@@ -33,7 +33,7 @@ ik begin met responsive en misschien wat animaties als ik daar aan toe kom :)
 ## Je website
 
 <details open>
-<summary>Apple iPhone 12</summary>
+<summary>Apple</summary>
 
 ### Je opdracht:
 https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_pcrid_487299093080_pgrid_114373001947_&cid=aos-nl-kwgo-iphone--slid---product-
