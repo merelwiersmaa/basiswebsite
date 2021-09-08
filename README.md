@@ -42,6 +42,7 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
 <details open>
  <summary>Apple iPhone 12</summary>
 <img src="iphone12pagina.png" width="375px" alt="screenshot 1e pagina">
+ </details>
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
