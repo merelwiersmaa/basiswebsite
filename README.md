@@ -13,16 +13,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Merel Wiersma</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Merel Wiersma
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+ik begin met responsive en misschien wat animaties als ik daar aan toe kom :)
  
 </details>
 
@@ -33,14 +33,14 @@ hier je focus (kies uit responsive óf surface plane)
 ## Je website
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Apple iPhone 12</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_pcrid_487299093080_pgrid_114373001947_&cid=aos-nl-kwgo-iphone--slid---product-
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="" width="375px" alt="screenshot 1e pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
