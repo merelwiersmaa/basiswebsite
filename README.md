@@ -61,7 +61,7 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
 <summary>In de schets is te zien hoe de pagina opgedeeld is en welke delen ik zelf ga namaken.</summary>
 
 ### de hele pagina: 
-<img src="breakdownschets.jpg" width="375px" alt="breakdownschets van eerste pagina">
+<img src="images/breakdownschets.jpg" width="375px" alt="breakdownschets van eerste pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
