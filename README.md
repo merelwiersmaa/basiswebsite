@@ -37,6 +37,8 @@ ik begin met responsive en misschien wat animaties als ik daar aan toe kom :)
 
 ### Je opdracht:
 https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_pcrid_487299093080_pgrid_114373001947_&cid=aos-nl-kwgo-iphone--slid---product-
+ 
+ https://www.apple.com/shop/studio/apple-watch
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 <details open>
@@ -62,7 +64,7 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
 <summary>In de schets is te zien hoe de pagina opgedeeld is en welke delen ik zelf ga namaken.</summary>
 
 ### de hele pagina: 
-<img src="breakdownschets.jpg" width="375px" alt="breakdownschets van eerste pagina">
+<img src="breakdownschets.png" width="375px" alt="breakdownschets van eerste pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
