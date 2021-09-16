@@ -86,6 +86,8 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
 ### Stand van zaken
 ik heb de lessen best wel kunnen volgen tot nu toe, maar het lijkt me wel ingewikkeld om het van mijzelf zo 'uit mijn hoofd' te moeten doen.
  Ook heb ik deze week niet zo veel tijd gehad om te werken aan school, dus denk ik dat ik met het bouwen van de website iets achterloop.
+ 
+ ik heb ik mijn code in de comments gezet waar ik tegenaanloop en wat ik graag wil veranderen
 
 
 ### Agenda voor meeting
