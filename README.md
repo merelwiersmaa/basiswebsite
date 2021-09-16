@@ -84,7 +84,8 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ik heb de lessen best wel kunnen volgen tot nu toe, maar het lijkt me wel ingewikkeld om het van mijzelf zo 'uit mijn hoofd' te moeten doen.
+ Ook heb ik deze week niet zo veel tijd gehad om te werken aan school, dus denk ik dat ik met het bouwen van de website iets achterloop.
 
 
 ### Agenda voor meeting
