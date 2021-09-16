@@ -46,9 +46,10 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
 
  <details open>
 #### Screenshot(s) van de tweede pagina (small screen):
- <summary>hier de naam van de pagina</summary> 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+ <summary>Apple Watch</summary> 
+<img src="images/applewatch1.jpg" width="375px" alt="applewatch1">
+ <img src="images/applewatch2.jpg" width="375px" alt="applewatch2">
+  <img src="images/applewatch3.jpg" width="375px" alt="applewatch3">
 </details>
 
 
