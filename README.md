@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
 <summary>Merel Wiersma</summary>
 
 ### Auteur:
@@ -32,7 +32,7 @@ ik begin met responsive en misschien wat animaties als ik daar aan toe kom :)
 
 ## Je website
 
-<details open>
+<details>
 <summary>Apple</summary>
 
 ### Je opdracht:
@@ -41,12 +41,12 @@ https://www.apple.com/nl/iphone-12/?afid=p238%7CsSPtEdyDb-dc_mtid_187079nc38483_
  https://www.apple.com/shop/studio/apple-watch
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-<details open>
+<details>
  <summary>Apple iPhone 12</summary>
 <img src="iphone12pagina.png" width="375px" alt="screenshot 1e pagina">
  </details>
 
- <details open>
+ <details>
 #### Screenshot(s) van de tweede pagina (small screen):
  <summary>Apple Watch</summary> 
 <img src="applewatch1.png" width="375px" alt="applewatch1">
