@@ -5,6 +5,21 @@
     padding: 0;
 }
 
+:root {
+	--navKleur: rgba(15, 9, 9, 0);
+}
+
+
+
+
+/* de a-linkjes wil ik zwart maken*/
+a {
+    list-style: none;
+    text-decoration: none;
+}
+a.visited {
+    color: var(--navKleur);
+}
 
 
 
@@ -12,12 +27,13 @@
 /* HEADER/NAV */
 header {
     background-color: grey;
+    position:fixed;
+    width: 100%;
 }
 ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    position: sticky;
     padding: 1.5em;
 }
 
@@ -26,13 +42,19 @@ ul {
 
 
 /* BELOWHEADER/EERSTE SECTIE */
-/* deze tekstjes wil ik goed laten aansluiten bij de images */
+/* deze tekstjes wil ik goed laten aansluiten bij de images 
+en een aparte scrollbalk maken */
 section:first-of-type {
     background-color:rgb(251, 251, 253);
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 3em;
+    
 }
-li > img {
-    width: 4em;
-    height: 4em;
+section:first-of-type > li > img {
+    width: 20%;
 }
 
 
@@ -92,7 +114,7 @@ section:nth-of-type(3)>ul {
 /*VIERDE SECTIE*/
 section:nth-of-type(4) {
     background-color: rgb(173, 201, 215);
-    margin-top: 10em;
+    padding-top: 10em;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -108,14 +130,17 @@ section:nth-of-type(4)>h1 {
 }
 
 /*VIJFDE SECTIE*/
-section:nth-of-type(5) {
-    margin-top: 10em;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+section:nth-of-type(5) > h1 {
+    padding-top: 2em;
+    text-align: center;
+
 }
 /* hier wil ik een carrousel van maken*/
 section:nth-of-type(5)>ul {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
 }
 
