@@ -105,6 +105,12 @@ in de meeting hebben we een voor een vragen gesteld aan Yunus en Rowin, en werd 
  zelf had ik wat kleine dingetjes zoals de header-icoontjes, een nettere opmaak van mijn html en wat margins weggehaald.
  nu wil ik alleen nog de kopjes onder de icoontjes in de 'belowheader' gecentreerd hebben,
  en een carrousel (of 'keuzemenu') voor de verschillende kleuren iphones onder aan de pagina.
+ 
+ ** ik kwam ik na de feedback achter toen ik verder aan het werk ging:
+ bij de transition (in de eerste sectie met de grote afbeelding in het midden) wil ik dat alleen de afbeelding beweegt, en niet de content eronder
+naar onder schuift. dus dat het op zn plek blijft.
+daarnaast wil ik dat als er niet meer gehoverd wordt, dat de afbeelding langzaam teruggaat naar 
+het eerste formaat, en niet plots terugschiet
 
 </details>
 
