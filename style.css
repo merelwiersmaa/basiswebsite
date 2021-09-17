@@ -70,8 +70,18 @@ section:nth-of-type(2) {
 }
 /* deze image wil ik in laten "vliegen" met javascript */
 section:nth-of-type(2)>img {
-    margin: 10em;
+    padding: 10em;
     width: 30em;
+    animation: ease-in;
+    
+}
+/* bij de transition wil ik dat alleen de afbeelding beweegt, en niet de content eronder
+naar onder schuift. dus dat het op zn plek blijft.
+daarnaast wil ik dat als er niet meer gehoverd wordt, dat de afbeelding langzaam teruggaat naar 
+het eerste formaat, en niet plots terugschiet */
+section:nth-of-type(2)>img:hover {
+    width: 40em;
+    transition-duration: .3s;   
 }
 h1 {
     font-size: 5em;
@@ -104,11 +114,13 @@ section:nth-of-type(3)>h1 {
 /* deze li's wil ik onder elkaar, naast de afbeelding hebben staan */
 section:nth-of-type(3)>ul {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
     color: orange;
 }
 
-/* hiertussen zit witruimte die ik eigenlijk weg wil hebben */
+
+
 
 
 /*VIERDE SECTIE*/
@@ -128,6 +140,10 @@ section:nth-of-type(4)>h1 {
     color:rgb(47, 65, 173);
     max-width: 15em;
 }
+
+
+
+
 
 /*VIJFDE SECTIE*/
 section:nth-of-type(5) > h1 {
