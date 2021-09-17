@@ -101,12 +101,10 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+in de meeting hebben we een voor een vragen gesteld aan Yunus en Rowin, en werd het opgelost met hun dmv scherm delen etc.
+ zelf had ik wat kleine dingetjes zoals de header-icoontjes, een nettere opmaak van mijn html en wat margins weggehaald.
+ nu wil ik alleen nog de kopjes onder de icoontjes in de 'belowheader' gecentreerd hebben,
+ en een carrousel (of 'keuzemenu') voor de verschillende kleuren iphones onder aan de pagina.
 
 </details>
 
