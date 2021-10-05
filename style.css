@@ -1,8 +1,8 @@
 /* ALGEMEEN */
-/* font lukt niet... */
+
 @font-face {
     font-family: AppleFontTekst;
-    src: url("fonts/sf-pro-text_regular.woff");
+    src: url("fonts/SFUIText/SFUIText-Regular.otf");
   }
 
 *, html {
@@ -35,38 +35,52 @@ a {
     color: black;
 }
 
+li {
+    list-style: none;
+}
+
 
 
 
 
 /* HEADER/NAV */
 header {
-    background-color: grey;
+    background-color: rgb(51, 51, 51);
     position:fixed;
     width: 100%;
 }
 
-nav > ul {
-    background-color: grey;
+nav > ul:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+nav > ul:nth-of-type(2) {
+    background-color: rgb(51, 51, 51);
     position: fixed;
     left: 0;
     bottom: 0;
     right: 0;
     top: 0;
-    padding-top: 10em;
+    padding-left: 2em;
+    padding-top:2em;
+    font-size: 3em;
+    color: white;
 
-    /* zorgt ervoor dar de navigatie niet in beeld is */
+    /* zorgt ervoor dar de navigatie niet in beeld is */  
     transform: translateX(-100%); 
 }
 
-nav > button {
-    padding-top: 3em;
-    padding-bottom: 3em;
+nav > ul:nth-of-type(2)>li>a {
+    color: white;
+}
+
+.hamburger {
 
     /* hieronder zorgt ervoor dat de button boven de content steekt */
     position:relative;
-    z-index:100;
-    background-color: grey;
+    z-index: 1;
+    background-color: transparent;
 }
 
 nav.toonMenu ul {
@@ -76,7 +90,9 @@ nav.toonMenu ul {
     transition: .4s;
 }
 
-
+.tasje {
+    background-color: transparent;
+}
 
 
 
@@ -122,19 +138,40 @@ section:nth-of-type(2) {
 section:nth-of-type(2)>img {
     padding: 10em;
     width: 30em;
+    transition: .3s;
+    min-width: 10em;
 }
 
-section:nth-of-type(2)>img:hover {
-    /* bij de transition wil ik dat alleen de afbeelding beweegt, en niet de content eronder
+/* @keyframes iphone-animation {
+    0% {
+    transform:scale(1);
+    }
+    50% {
+    transform:scale(2);
+    }
+    100% {
+    transform:scale(1);
+    } 
+} */
+
+section:nth-of-type(2) > img:hover  {
+    /* width: 40em; */
+    transform:scale(1.5);
+} 
+
+
+
+
+
+
+
+ /* bij de transition wil ik dat alleen de afbeelding beweegt, en niet de content eronder
 naar onder schuift. dus dat het op zn plek blijft.
 daarnaast wil ik dat als er niet meer gehoverd wordt, dat de afbeelding langzaam teruggaat naar 
 het eerste formaat, en niet plots terugschiet */
-    width: 40em;
-    transition-duration: .3s;   
-}
-
+    /*     */
 section:nth-of-type(2)>p:nth-of-type(3) {
-    color: rgb(118, 119, 121);
+    color: rgb(92, 94, 97);
     padding: 2em;
 }
 
@@ -144,8 +181,9 @@ section:nth-of-type(2)>p:nth-of-type(3) {
 
 /* DERDE SECTIE */
 section:nth-of-type(3) {
-    background-color: rgb(245, 219, 171);
+    background-color: lightyellow;
     padding-top: 5em;
+    padding-bottom: 5em;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -154,7 +192,19 @@ section:nth-of-type(3) {
 
 section:nth-of-type(3)>h1 {
     color: orange;
+    padding-bottom: 3em;
 }
+
+section:nth-of-type(3) > ul > li > img {
+    width: 10em;
+    transition: .3s;
+    padding-bottom: 1em;
+}
+
+section:nth-of-type(3) > ul > li > img:hover  {
+    /* width: 15em; */
+    transform:scale(1.5);
+} 
 
 section:nth-of-type(3)>ul {
     
@@ -164,7 +214,10 @@ section:nth-of-type(3)>ul {
     flex-direction: row;
     color: orange;
     list-style: none;
+    font-size: 2em;
+    font-weight: bold;
 }
+
 
 
 
@@ -179,12 +232,22 @@ section:nth-of-type(4) {
     justify-items: center;
     align-items: center;
 }
-section:nth-of-type(4)>img {
-    width: 30em;
+
+section:nth-of-type(4) > img {
+    width: 20em;
+    transition: .3s;
+    padding-bottom: 8em;
 }
+
+section:nth-of-type(4) > img:hover {
+    /* width: 15em; */
+    transform:scale(1.5);
+} 
+
 section:nth-of-type(4)>h1 {
     color:rgb(47, 65, 173);
     max-width: 15em;
+    padding-bottom: 2em;
 }
 
 
@@ -218,6 +281,16 @@ section:nth-of-type(5) > ul {
     list-style: none;
 }
 
+section:nth-of-type(5) > ul > li {
+    margin: 0 1em;
+}
+section:nth-of-type(5) > ul > img {
+    border-radius: 2em;
+}
+
+section:nth-of-type(5) > ul > li > button {
+    background: transparent;
+}
 /* gegevens voor javascript */
 section:nth-of-type(5).achtergrondPaars {
     background-color: plum;
@@ -270,7 +343,7 @@ footer {
     padding-top: 5em;
     padding-left: 2em;
     display:grid;
-    gap: 2em;
+    gap: 4em;
 
     /* Dit heb ik gekopieerd uit de les, de 'repeat' en de maten die daaraan gegeven worden betekent
     dat er zoveel mogelijk lijstjes in de gegeven ruimtes naast elkaar worden gedaan zolang het past
@@ -283,7 +356,7 @@ footer {
     grid-row-end: -1;
 }
 
-footer ul {
+footer ul:first-of-type {
     list-style: none;
 }
 
@@ -291,4 +364,11 @@ footer li {
     line-height: 2.5em;
 }
 
+/* footer section {
+    grid-row-start: 3;
+}
 
+footer ul:last-of-type{
+    display: flex;
+    align-content: space-between;
+} */

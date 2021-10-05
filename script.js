@@ -1,5 +1,5 @@
 // hieronder worden de variabele aangemaakt voor de navigatie en de menuknop
-var button = document.querySelector("nav button");
+var button = document.querySelector(".hamburger");
 
 var nav = document.querySelector("nav")
 
@@ -34,6 +34,10 @@ var paars = document.querySelector(".paars");
 var goud = document.querySelector(".goud");
 
 var zwart = document.querySelector(".zwart");
+
+// var zijkant = document.querySelector(".zijkant");
+
+// var voorkantfoto = document.querySelector(".voorkantfoto");
 
 // hier beginnen de functies die zijn aangemaakt om de kleur te veranderen,
 // ze zijn allemaal hetzelfde, behalve dat de kleurnamen steeds veranderen
@@ -139,3 +143,11 @@ function achtergrondZwart() {
         heading.classList = ("headingZwart")
         }
         zwart.addEventListener("click", headingZwart);
+
+
+// hier komt de functie om de watch te zien vanaf de zijkant
+
+// function zijkantfoto() {
+//     voorkantfoto.src = "watch_belowheader/WATCH2"
+//     }
+//     zijkant.addEventListener("click", zijkantfoto);
