@@ -196,7 +196,8 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+in de voortgang heeft rowin mij geholpen met de opmaak van de kleurkeuze buttons en het hoveren van afbeeldingen (dat de scale groter wordt)
+ hierna ben ik verder gegaan aan de 2e pagina (apple watch)
 
 
 ### Agenda voor meeting
@@ -225,11 +226,25 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ik heb uiteindelijk 1 hele pagina en 2 halve extra pagina's gemaakt (zoals het ook op de apple website loopt)
+ de iphone 12 pagina zijn er 2 dingetjes die me niet gelukt zijn:
+ 
+ de z-index van het hamburger menu werkt niet meer
+ onderaan de footer wilde ik nog wat links hebben maar die kreeg ik niet mooi gepositioneerd, dus heb ik ze maar weggedaan (als comments, dus ze staan er nog wel)
+ 
+ bij de apple watch pagina heb ik een dropdown menu kunnen maken en met javcascript gewerkt
+ 
+ gemiste kansen waar ik niet meer aan toe kwam:
+ 
+ de combinatie van de applewatches meer uitwerken, dus had ik er graag nog een carrousel in gewild, zodat er gescrolld kan worden en je op die manier kan zien welke touchscreen het 'mooiste' past op het bandje die op dat moment gekozen is.
+ 
+ en een ander js ding: dat als je op 'zijkant' klikt, er automatisch opniew 'voorkant' in de plaats komt te staan, zodat je steeds van zijkant en voorkant kan terugklikken
+ 
+ 
 
 ### Screenshot(s)
 
@@ -248,8 +263,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.apple.com/nl/shop/studio/apple-watch
+2. https://www.apple.com/nl/shop/studio/apple-watch
+3. https://www.apple.com/nl/iphone-12/specs/
+4. https://www.w3schools.com/howto/howto_css_dropdown.asp
 
 </details>
