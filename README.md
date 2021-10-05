@@ -121,7 +121,7 @@ het eerste formaat, en niet plots terugschiet
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
@@ -248,7 +248,9 @@ ik heb uiteindelijk 1 hele pagina en 2 halve extra pagina's gemaakt (zoals het o
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="iphone12-eindversie.jpg">
+ <img src="watchpagina-eindversie.jpg">
+ <img src="watch2pagina-eindversie.jpg">
 
 </details>
 
