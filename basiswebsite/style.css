@@ -1,0 +1,374 @@
+/* ALGEMEEN */
+
+@font-face {
+    font-family: AppleFontTekst;
+    src: url("fonts/SFUIText/SFUIText-Regular.otf");
+  }
+
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: AppleFontTekst;    
+}
+
+h1 {
+    font-size: 5em;
+    padding: .5em;
+}
+
+p {
+    font-size: 2em;
+    max-width: 15em;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+/* HEADER/NAV */
+header {
+    background-color: rgb(51, 51, 51);
+    position:fixed;
+    width: 100%;
+}
+
+nav > ul:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+nav > ul:nth-of-type(2) {
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    padding-left: 2em;
+    padding-top:2em;
+    font-size: 3em;
+    color: white;
+
+    /* zorgt ervoor dar de navigatie niet in beeld is */  
+    transform: translateX(-100%); 
+}
+
+nav > ul:nth-of-type(2)>li>a {
+    color: white;
+}
+
+.hamburger {
+
+    /* hieronder zorgt ervoor dat de button boven de content steekt */
+    position:relative;
+    z-index: 1;
+    background-color: transparent;
+}
+
+nav.toonMenu ul {
+    /* dit wordt gebruikt bij de functie toonMenu in javascript,
+    het zorgt ervoor dat de navigatie in beeld schuift  */
+    transform: translateX(0%);
+    transition: .4s;
+}
+
+.tasje {
+    background-color: transparent;
+}
+
+
+
+/* BELOWHEADER/EERSTE SECTIE */
+section:first-of-type {
+    background-color:rgb(251, 251, 253);
+    display: flex;
+    justify-content: center;
+}
+
+section:first-of-type ul {
+    /* ik kom er niet uit hoe ik de tekst met plaatje mooi gecentreerd onderelkaar krijg */
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    flex-direction: row;
+    min-width: 30em;
+    max-width: 100em;
+    padding-top: 8em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+
+    /* overflow zorgt ervoor dat de balk scrollbaar is op een kleiner scherm */
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+
+
+
+
+/* TWEEDE SECTIE */
+section:nth-of-type(2) {
+    background-color: rgb(248, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+section:nth-of-type(2)>img {
+    padding: 10em;
+    width: 30em;
+    transition: .3s;
+    min-width: 10em;
+}
+
+/* @keyframes iphone-animation {
+    0% {
+    transform:scale(1);
+    }
+    50% {
+    transform:scale(2);
+    }
+    100% {
+    transform:scale(1);
+    } 
+} */
+
+section:nth-of-type(2) > img:hover  {
+    /* width: 40em; */
+    transform:scale(1.5);
+} 
+
+
+
+
+
+
+
+ /* bij de transition wil ik dat alleen de afbeelding beweegt, en niet de content eronder
+naar onder schuift. dus dat het op zn plek blijft.
+daarnaast wil ik dat als er niet meer gehoverd wordt, dat de afbeelding langzaam teruggaat naar 
+het eerste formaat, en niet plots terugschiet */
+    /*     */
+section:nth-of-type(2)>p:nth-of-type(3) {
+    color: rgb(92, 94, 97);
+    padding: 2em;
+}
+
+
+
+
+
+/* DERDE SECTIE */
+section:nth-of-type(3) {
+    background-color: lightyellow;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+section:nth-of-type(3)>h1 {
+    color: orange;
+    padding-bottom: 3em;
+}
+
+section:nth-of-type(3) > ul > li > img {
+    width: 10em;
+    transition: .3s;
+    padding-bottom: 1em;
+}
+
+section:nth-of-type(3) > ul > li > img:hover  {
+    /* width: 15em; */
+    transform:scale(1.5);
+} 
+
+section:nth-of-type(3)>ul {
+    
+    /* deze li's wil ik onder elkaar, naast de afbeelding hebben staan */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: orange;
+    list-style: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*VIERDE SECTIE*/
+section:nth-of-type(4) {
+    background-color: rgb(173, 201, 215);
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+section:nth-of-type(4) > img {
+    width: 20em;
+    transition: .3s;
+    padding-bottom: 8em;
+}
+
+section:nth-of-type(4) > img:hover {
+    /* width: 15em; */
+    transform:scale(1.5);
+} 
+
+section:nth-of-type(4)>h1 {
+    color:rgb(47, 65, 173);
+    max-width: 15em;
+    padding-bottom: 2em;
+}
+
+
+
+
+
+/*VIJFDE SECTIE*/
+section:nth-of-type(5){
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+section:nth-of-type(5) > h1 {
+    padding-top: 2em;
+}
+
+section:nth-of-type(5) > img {
+    min-width: 30em;
+} 
+
+section:nth-of-type(5) > ul {
+    padding-top: 5em;
+    padding-bottom: 8em;
+
+    /* de buttons wil ik mooier uit elkaar laten staan maar dat lukt me niet.. */
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+
+section:nth-of-type(5) > ul > li {
+    margin: 0 1em;
+}
+section:nth-of-type(5) > ul > img {
+    border-radius: 2em;
+}
+
+section:nth-of-type(5) > ul > li > button {
+    background: transparent;
+}
+/* gegevens voor javascript */
+section:nth-of-type(5).achtergrondPaars {
+    background-color: plum;
+}
+section:nth-of-type(5) > h1.headingPaars {
+    color: purple;
+}
+
+section:nth-of-type(5).achtergrondGroen {
+    background-color: lightgreen;
+}
+section:nth-of-type(5) > h1.headingGroen {
+    color: darkgreen;
+}
+
+section:nth-of-type(5).achtergrondBlauw {
+    background-color: lightskyblue;
+}
+section:nth-of-type(5) > h1.headingBlauw {
+    color: darkblue;
+}
+
+section:nth-of-type(5).achtergrondRood {
+    background-color: palevioletred;
+}
+section:nth-of-type(5) > h1.headingRood {
+    color: darkred;
+}
+
+section:nth-of-type(5).achtergrondGoud {
+    background-color: lightyellow;
+}
+section:nth-of-type(5) > h1.headingGoud {
+    color: darkorange;
+}
+
+section:nth-of-type(5).achtergrondZwart {
+    background-color: lightslategray;
+}
+section:nth-of-type(5) > h1.headingZwart {
+    color: black;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: lightgrey;
+    padding-top: 5em;
+    padding-left: 2em;
+    display:grid;
+    gap: 4em;
+
+    /* Dit heb ik gekopieerd uit de les, de 'repeat' en de maten die daaraan gegeven worden betekent
+    dat er zoveel mogelijk lijstjes in de gegeven ruimtes naast elkaar worden gedaan zolang het past
+    alleen weet ik niet wat de '1fr' betekent */
+    grid-template-columns: repeat(  auto-fit, minmax(12em,1fr)  );
+
+    /* hieronder begint er een nieuwe rij als het scherm te klein is voor de hoeveelheid */
+    /* ul's en de gegeven maten, hij start dus een nieuwe rij eronder als het niet meer past */
+    grid-row-start: 1;
+    grid-row-end: -1;
+}
+
+footer ul:first-of-type {
+    list-style: none;
+}
+
+footer li {
+    line-height: 2.5em;
+}
+
+/* footer section {
+    grid-row-start: 3;
+}
+
+footer ul:last-of-type{
+    display: flex;
+    align-content: space-between;
+} */
