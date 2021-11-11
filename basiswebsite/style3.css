@@ -1,0 +1,142 @@
+/* ALGEMEEN */
+/* font lukt niet... */
+@font-face {
+    font-family: AppleFontTekst;
+    src: url("fonts/SFUIText/SFUIText-Regular.otf");
+  }
+
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: AppleFontTekst;    
+}
+
+nav img {
+    width: 6em;
+   
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+p {
+    font-size: 1.3em; 
+}
+
+h2 {
+    font-size: 1.3em;
+    color:grey;
+}
+
+
+
+/* dropdown knop */
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 5em;
+    width: 10em;
+    padding: .8em;
+    background-color: rgb(0, 112, 199);
+}
+
+/* positie voor dropdown items */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* content die uitgeklapt wordt */
+.dropdowncontent {
+    display:none;
+    position:absolute;
+    background-color: rgb(251, 251, 253);
+    border-radius: 2em;
+    z-index: 1;
+    min-width: 20em;
+    box-shadow: 1em 1em 1em 1em  rgba(0,0,0,0.2);
+}
+
+/* de linkjes */
+.dropdowncontent a {
+    color: rgb(0, 112, 199);
+    text-decoration: none;
+    display: block;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.dropdown:hover .dropdowncontent{
+    display: block;
+
+}
+
+.dropdownbutton {
+    background-color: transparent;
+    color: grey;
+}
+
+/* .dropdownbutton:visited {
+    color: grey;
+} */
+.bewaar a{
+    color:white;
+    font-size:1.3em;
+}
+.bewaar:hover {
+    background-color: rgb(89, 176, 243);
+    transition: .2s;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+section img {
+    padding-top: 5em;
+    width: 10em; 
+}
+section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    line-height: 2.5em;
+   /* max-width: 30em; */
+}
+.zijkant {
+    color: rgb(0, 112, 199);
+    background-color: transparent;
+}
+
+section ul:last-of-type {
+    padding-top: 2em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.grijzebuttons {
+    background: rgb(199, 199, 199);
+    font-size:.8em;
+    width: 5em;
+    color: rgb(82, 82, 82);
+}
+/* section button {
+    background-color: transparent;
+    color:rgb(0, 112, 199);
+    text-decoration-line: underline;
+} */
+
+
